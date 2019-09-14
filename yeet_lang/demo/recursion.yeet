@@ -1,0 +1,5 @@
+let infloop do
+  say "more..."
+  infloop
+
+infloop

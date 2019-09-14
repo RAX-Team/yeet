@@ -1,0 +1,11 @@
+let f x do
+    x
+
+let g h do
+    let y = h 2
+    say y
+    let k do
+        say 6
+
+let a = g f
+a

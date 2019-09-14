@@ -1,0 +1,10 @@
+let function x do
+  say x
+
+function a b do
+  say "Different function"
+  say a
+  say b
+
+function 0
+function 1 2

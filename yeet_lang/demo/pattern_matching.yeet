@@ -1,0 +1,14 @@
+let remaining 0 do
+  say "Empty!"
+
+remaining 1 do
+  say "One left!"
+  say ""
+  remaining 0
+
+remaining x do
+  say "I have enough!"
+  say ""
+  remaining 1
+
+remaining 2

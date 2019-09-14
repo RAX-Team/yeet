@@ -1,0 +1,18 @@
+let curry f do
+    with x do
+        with y do
+            f x y
+
+let flip f do
+    with y x do
+        f x y
+
+let compose2 f g do
+    with x y do
+        f (g x y)
+
+let halve = (curry (flip (/))) 2
+let average = compose2 halve (+)
+
+say (halve 84) 
+say (average 13 20)

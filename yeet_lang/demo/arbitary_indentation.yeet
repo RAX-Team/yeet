@@ -1,0 +1,11 @@
+let spaces do
+       say "7 space indent all throughout"
+
+spaces x do
+       say "you can have"
+       say x
+       say "spaces if you are consistent"
+
+spaces
+say ""
+spaces 5

@@ -1,0 +1,18 @@
+let function x do
+  let otherfunction x do
+    say x
+  otherfunction 2
+  otherfunction x
+function 1
+
+let a = 100
+let myfunction do
+  let a = 3
+  say a
+myfunction
+
+let foo do
+  let foo do
+    say "Inner foo"
+  foo
+foo
